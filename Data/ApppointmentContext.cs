@@ -4,9 +4,9 @@ using System.Collections.Generic;
 
 namespace MyCVKetel_Project.Data
 {
-    public class ApppointmentContext : DbContext
+    public class AppointmentContext : DbContext
     {
-        public ApppointmentContext(DbContextOptions<ApppointmentContext> options) : base(options)
+        public AppointmentContext(DbContextOptions<AppointmentContext> options) : base(options)
         {
         }
 
